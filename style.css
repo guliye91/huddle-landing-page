@@ -95,7 +95,8 @@ a.btn{
     font-size: 15px;
 }
 .attribution a{
-    color: #3DE619;
+    color: #3DE619 !important;
+    text-decoration: none;
 }
 @media screen and (max-width: 1024px){
     .container{

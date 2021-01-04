@@ -125,7 +125,17 @@ a.btn{
         padding: 20px 0;
     }
 }
-@media screen and (max-width: 555px){
+@media screen and (max-width: 700px){
+    body{
+        font-size: 15px;
+        background-image: url('./images/bg-mobile.svg');
+        background-position: right top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: hsl(257, 40%, 49%);
+        color: #ffffff;
+        font-family: var(--poppins);
+    }
     .contents{
         width: 100%;
         padding-top: 50px;
@@ -150,7 +160,7 @@ a.btn{
         padding: 10px;
     }
     .attribution{
-        padding: 20px;
+        padding: 10px;
         font-size: 15px;
     }
     .attribution a{
